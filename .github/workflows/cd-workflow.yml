@@ -20,6 +20,6 @@ jobs:
       - name: Deploy
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_api_key: ${{ secrets.HEROKU_API_KEYS }}
           heroku_app_name: 'front-sgcm'
           heroku_email: 'andrielle.herondale24@gmail.com'
